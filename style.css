@@ -1,0 +1,129 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o container de login */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título de login */
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilos para os grupos de input */
+.login-container .form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para os campos de texto e senha */
+.login-container input[type="text"], 
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para o botão de login */
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efeito hover no botão */
+.login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de alerta (mensagens de erro ou sucesso) */
+.login-container .alert {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Estilo para o link de "Esqueceu sua senha?" */
+.forgot-password {
+    text-align: center;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+/* estilos.css */
+
+/* Estilos para o cartão do produto */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card .product-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card .product-price {
+    font-size: 1.1em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.product-card .btn-add-to-cart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card .btn-add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    margin-top: 50px;
+}
